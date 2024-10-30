@@ -1,4 +1,5 @@
 import React from "react";
+import JobBoard from "./JobBoard";
 // import arrowRight1 from "./arrow-right-1.svg";
 // import coffee1 from "./coffee-1.svg";
 
@@ -65,24 +66,10 @@ export const App = () => {
 
             <div className="overlap-3">
               <div className="group-2">
-                <div className="text-wrapper-2">Home</div>
-
-                <div className="text-wrapper-3">About</div>
-
-                <div className="text-wrapper-4">Services</div>
-
-                <div className="text-wrapper-5">Contact</div>
+                
               </div>
 
-              <div className="navbar">
-                <div className="text-wrapper-6">fb</div>
-
-                <div className="text-wrapper-7">ig</div>
-
-                <div className="text-wrapper-8">yt</div>
-
-                <div className="text-wrapper-9">lk</div>
-              </div>
+             
 
               <div className="group-3">
                 <div className="overlap-4">
@@ -225,6 +212,12 @@ export const App = () => {
           src="https://c.animaapp.com/PMiAzVHf/img/group-31@2x.png"
         />
 
+        <img
+          className="group-12-2"
+          alt="Group"
+          src="https://c.animaapp.com/PMiAzVHf/img/group-31@2x.png"
+        />
+
 
         <p className="text-wrapper-23">
           If your costs are going up and budgets squeezed, we can help.
@@ -303,6 +296,9 @@ export const App = () => {
           ut consectetur lorem. Pellentesque eu varius arcu, facilisis
           sollicitudin augue. In tincidunt sapien at posuere auctor.
         </p>
+        <div className="job-board">
+        <JobBoard />
+        </div>
       </div>
     </div>
   );

@@ -334,11 +334,11 @@
   font-family: "Larsseit-Regular", Helvetica;
   font-size: 36px;
   font-weight: 400;
-  left: 380px;
+  left: 390px;
   letter-spacing: 0;
   line-height: 43.2px;
   position: absolute;
-  top: 2167px;
+  top: 2127px;
   white-space: nowrap;
   width: 826px;
 }
@@ -348,28 +348,29 @@
   font-family: "Larsseit-Regular", Helvetica;
   font-size: 14px;
   font-weight: 400;
-  left: 320px;
+  left: 330px;
   letter-spacing: 0;
   line-height: 28px;
   position: absolute;
-  top: 2252px;
+  top: 2222px;
   width: 727px;
 }
 
 .servio .mask-group-2 {
   height: 64px;
-  left: 247px;
+  left: 340px;
   position: absolute;
-  top: 2361px;
+  top: 2331px;
   width: 632px;
 }
 
 .servio .mask-group-3 {
   height: 64px;
-  left: 903px;
+  left: 803px;
   position: absolute;
-  top: 2361px;
-  width: 537px;
+  top: 2331px;
+  max-width: 537px;
+  display: none;
 }
 
 .servio .group-7 {
@@ -561,10 +562,19 @@
 
 .servio .group-12 {
   height: 21px;
-  left: 185px;
+  left: 265px;
   position: absolute;
-  top: 2382px;
+  top: 2352px;
   width: 19px;
+}
+
+.servio .group-12-2 {
+  height: 21px;
+  right: 365px;
+  position: absolute;
+  top: 2352px;
+  width: 19px;
+  transform: rotate(180deg)
 }
 
 .servio .group-13 {
@@ -1058,4 +1068,9 @@
   position: absolute;
   top: 1359px;
   width: 532px;
+}
+
+.job-board {
+  position: relative;
+  top: 2400px;
 }

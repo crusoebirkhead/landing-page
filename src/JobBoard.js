@@ -10,6 +10,11 @@ const JobBoard = () => {
   const jobs = [
     { id: 1, title: 'Software Engineer', department: 'Engineering', location: 'New York' },
     { id: 2, title: 'Product Manager', department: 'Product', location: 'San Francisco' },
+    { id: 2, title: 'Product Manager', department: 'Product', location: 'San Francisco' },
+    { id: 2, title: 'Product Manager', department: 'Product', location: 'San Francisco' },
+    { id: 2, title: 'Product Manager', department: 'Product', location: 'San Francisco' },
+    { id: 2, title: 'Product Manager', department: 'Product', location: 'San Francisco' },
+    { id: 2, title: 'Product Manager', department: 'Product', location: 'San Francisco' }
     // ...other job entries
   ];
 
@@ -19,10 +24,10 @@ const JobBoard = () => {
   const handlePageChange = (e, value) => setPage(value);
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px', maxWidth: '900px', margin: 'auto'  }}>
       {/* Search and Filter Controls */}
-      <Grid2 container spacing={2} style={{ marginBottom: '20px' }}>
-        <Grid2 item xs={12} md={4}>
+      <Grid2 container spacing={2} alignItems="center" justifyContent="space-between" style={{ marginBottom: '20px', paddingRight: '40px' }}>
+        <Grid2 item xs={12} md={6}>
           <TextField
             label="Search Titles"
             variant="outlined"
@@ -31,34 +36,36 @@ const JobBoard = () => {
             onChange={handleSearchChange}
           />
         </Grid2>
-        <Grid2 item xs={6} md={4}>
-          <Select
-            value={location}
-            onChange={handleLocationChange}
-            displayEmpty
-            fullWidth
-          >
-            <MenuItem value=""><em>All Locations</em></MenuItem>
-            <MenuItem value="New York">New York</MenuItem>
-            <MenuItem value="San Francisco">San Francisco</MenuItem>
-          </Select>
-        </Grid2>
-        <Grid2 item xs={6} md={4}>
-          <Select
-            value={department}
-            onChange={handleDepartmentChange}
-            displayEmpty
-            fullWidth
-          >
-            <MenuItem value=""><em>All Departments</em></MenuItem>
-            <MenuItem value="Engineering">Engineering</MenuItem>
-            <MenuItem value="Product">Product</MenuItem>
-          </Select>
+        <Grid2 item xs={12} md={6} container justifyContent="flex-end" spacing={2}>
+          <Grid2 item xs={6} md={5}>
+            <Select
+              value={location}
+              onChange={handleLocationChange}
+              displayEmpty
+              fullWidth
+            >
+              <MenuItem value=""><em>All Locations</em></MenuItem>
+              <MenuItem value="New York">New York</MenuItem>
+              <MenuItem value="San Francisco">San Francisco</MenuItem>
+            </Select>
+          </Grid2>
+          <Grid2 item xs={6} md={5}>
+            <Select
+              value={department}
+              onChange={handleDepartmentChange}
+              displayEmpty
+              fullWidth
+            >
+              <MenuItem value=""><em>All Departments</em></MenuItem>
+              <MenuItem value="Engineering">Engineering</MenuItem>
+              <MenuItem value="Product">Product</MenuItem>
+            </Select>
+          </Grid2>
         </Grid2>
       </Grid2>
 
       {/* Job Cards Grid */}
-      <Grid2 container spacing={3}>
+      <Grid2 container spacing={4} justifyContent="flex-start">
         {jobs.map((job) => (
           <Grid2 item xs={12} sm={6} md={4} key={job.id}>
             <Card>
