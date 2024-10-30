@@ -91,7 +91,7 @@ export const App = () => {
 
           <div className="overlap-group-wrapper">
             <div className="div-wrapper">
-              <p className="p">Get in touch with us</p>
+              <p className="p">Current job openings</p>
             </div>
           </div>
 
