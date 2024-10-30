@@ -1,5 +1,6 @@
 {
   "name": "landing-page",
+  "homepage": "https://crusoebirkhead.github.io/landing-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
