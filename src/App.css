@@ -1,38 +1,1061 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.servio {
+  background-color: #ffffff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.servio .div {
+  background-color: #ffffff;
+  height: 2809px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.servio .overlap {
+  height: 519px;
+  left: 0;
+  position: absolute;
+  top: 1146px;
+  width: 718px;
+}
+
+.servio .mask-group {
+  height: 177px;
+  left: 255px;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.servio .group {
+  background-color: #1894e1;
+  height: 467px;
+  left: 432px;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 286px;
+}
+
+.servio .rectangle {
+  background-color: #83dcd5;
+  border-radius: 0px 161.5px 0px 0px;
+  height: 127px;
+  left: -64px;
+  position: relative;
+  top: 64px;
+  transform: rotate(-270.00deg);
+  width: 256px;
+}
+
+.servio .img {
+  height: 471px;
+  left: 0;
+  position: absolute;
+  top: 48px;
+  width: 674px;
+  
+}
+
+.servio .overlap-group {
+  height: 812px;
+  left: 139px;
+  position: absolute;
+  top: -103px;
+  width: 1399px;
+}
+
+.servio .overlap-2 {
+  height: 812px;
+  left: 11px;
+  position: absolute;
+  top: 0;
+  width: 1388px;
+}
+
+.servio .text-wrapper {
+  color: #292929;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 54px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  position: absolute;
+  top: 275px;
+  width: 412px;
+}
+
+.servio .lorem-ipsum-dolor {
+  color: #888888;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 519px;
+  width: 441px;
+}
+
+.servio .overlap-3 {
+  height: 812px;
+  left: 262px;
+  position: absolute;
+  top: 0;
+  width: 1126px;
+}
+
+.servio .group-2 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 152px;
+  width: 294px;
+}
+
+.servio .text-wrapper-2 {
+  color: #5e5e5e;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 33px;
+}
+
+.servio .text-wrapper-3 {
+  color: #898989;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.servio .text-wrapper-4 {
+  color: #898989;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 153px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.servio .text-wrapper-5 {
+  color: #898989;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 243px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.servio .navbar {
+  height: 18px;
+  left: 458px;
+  position: absolute;
+  top: 145px;
+  width: 116px;
+}
+
+.servio .text-wrapper-6 {
+  color: #2e2e2e;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .text-wrapper-7 {
+  color: #2e2e2e;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .text-wrapper-8 {
+  color: #2e2e2e;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .text-wrapper-9 {
+  color: #2e2e2e;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 97px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .group-3 {
+  height: 812px;
+  left: 264px;
+  position: absolute;
+  top: 0;
+  width: 862px;
+}
+
+.servio .overlap-4 {
+  background-color: #12bfbf;
+  border-radius: 150.08px 0px 150.08px 0px;
+  height: 812px;
+  left: 339px;
+  position: absolute;
+  top: 0;
+  width: 388px;
+}
+
+.servio .group-4 {
+  background-color: #a4f8f2;
+  background-image: url(https://c.animaapp.com/PMiAzVHf/img/mask-group-6.png);
+  background-size: 100% 100%;
+  height: 667px;
+  left: 0;
+  position: absolute;
+  top: 145px;
+  width: 254px;
+}
+
+.servio .rectangle-2 {
+  background-color: #00a5a5;
+  border-radius: 0px 0px 149.54px 0px;
+  height: 129px;
+  left: 0;
+  position: absolute;
+  top: 67px;
+  width: 387px;
+}
+
+.servio .group-5 {
+  background-color: #1894e1;
+  height: 601px;
+  left: 0;
+  position: absolute;
+  top: 210px;
+  width: 311px;
+  border-radius:0 149.5px 0 149.5px;
+}
+
+.servio .microsoftteams-image {
+  height: 420px;
+  left: 341px;
+  object-fit: cover;
+  position: absolute;
+  top: 301px;
+  width: 569px;
+}
+
+.servio .overlap-group-wrapper {
+  height: 87px;
+  left: 11px;
+  position: absolute;
+  top: 638px;
+  width: 256px;
+}
+
+.servio .div-wrapper {
+  background-color: #13bebe;
+  border-radius: 0px 43.5px 43.5px 43.5px;
+  height: 87px;
+  position: relative;
+  width: 254px;
+}
+
+.servio .p {
+  color: #ffffff;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.servio .group-6 {
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 123px;
+  width: 230px;
+}
+
+.servio .overlap-wrapper {
+  height: 87px;
+  left: 790px;
+  position: absolute;
+  top: 1515px;
+  width: 256px;
+}
+
+.servio .text-wrapper-10 {
+  color: #292929;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 380px;
+  letter-spacing: 0;
+  line-height: 43.2px;
+  position: absolute;
+  top: 2167px;
+  white-space: nowrap;
+  width: 826px;
+}
+
+.servio .text-wrapper-11 {
+  color: #888888;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 320px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 2252px;
+  width: 727px;
+}
+
+.servio .mask-group-2 {
+  height: 64px;
+  left: 247px;
+  position: absolute;
+  top: 2361px;
+  width: 632px;
+}
+
+.servio .mask-group-3 {
+  height: 64px;
+  left: 903px;
+  position: absolute;
+  top: 2361px;
+  width: 537px;
+}
+
+.servio .group-7 {
+  height: 339px;
+  left: 236px;
+  position: absolute;
+  top: 1735px;
+  width: 954px;
+}
+
+.servio .overlap-5 {
+  height: 339px;
+  position: relative;
+  width: 952px;
+}
+
+.servio .rectangle-3 {
+  background-color: #f8f8f8;
+  border-radius: 0px 149px 0px 191.5px;
+  height: 298px;
+  left: 0;
+  position: absolute;
+  top: 41px;
+  width: 952px;
+}
+
+.servio .group-8 {
+  height: 296px;
+  left: 50px;
+  position: absolute;
+  top: 0;
+  width: 901px;
+}
+
+.servio .overlap-6 {
+  height: 124px;
+  left: 307px;
+  position: absolute;
+  top: 108px;
+  width: 463px;
+}
+
+.servio .text-wrapper-12 {
+  color: #292929;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28.8px;
+  position: absolute;
+  top: 0;
+  width: 346px;
+}
+
+.servio .text-wrapper-13 {
+  color: #888888;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 40px;
+  width: 460px;
+}
+
+.servio .group-9 {
+  height: 296px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 287px;
+}
+
+.servio .overlap-group-2 {
+  height: 296px;
+  position: relative;
+}
+
+.servio .rectangle-4 {
+  background-color: #1894e1;
+  border-radius: 0px 161.5px 0px 161.5px;
+  height: 188px;
+  left: 0;
+  position: absolute;
+  top: 108px;
+  width: 250px;
+}
+
+.servio .group-10 {
+  height: 15px;
+  left: 310px;
+  position: absolute;
+  top: 243px;
+  width: 84px;
+}
+
+.servio .star {
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.servio .star-2 {
+  height: 13px;
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.servio .star-3 {
+  height: 13px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.servio .star-4 {
+  height: 13px;
+  left: 52px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.servio .star-5 {
+  height: 13px;
+  left: 70px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.servio .group-11 {
+  height: 60px;
+  left: 837px;
+  position: absolute;
+  top: 69px;
+  width: 60px;
+}
+
+.servio .arrow-right-wrapper {
+  background-color: #e8f4fc;
+  border: 8px solid;
+  border-color: #ffffff;
+  border-radius: 100%;
+  height: 76px;
+  left: -8px;
+  position: relative;
+  top: -8px;
+  width: 76px;
+}
+
+.servio .arrow-right {
+  height: 21px;
+  left: 21px;
+  position: relative;
+  top: 19px;
+  width: 19px;
+}
+
+.servio .vector {
+  height: 18px;
+  left: 7px;
+  position: absolute;
+  top: 8px;
+  width: 19px;
+}
+
+.servio .text-wrapper-14 {
+  color: #929292;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 852px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 285px;
+  width: 69px;
+}
+
+.servio .group-12 {
+  height: 21px;
+  left: 185px;
+  position: absolute;
+  top: 2382px;
+  width: 19px;
+}
+
+.servio .group-13 {
+  height: 115px;
+  left: 141px;
+  position: absolute;
+  top: 2617px;
+  width: 1126px;
+}
+
+.servio .group-14 {
+  height: 15px;
+  left: 11px;
+  position: absolute;
+  top: 86px;
+  width: 291px;
+}
+
+.servio .text-wrapper-15 {
+  color: #5e5e5e;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.servio .text-wrapper-16 {
+  color: #898989;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .text-wrapper-17 {
+  color: #898989;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 151px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .text-wrapper-18 {
+  color: #898989;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 240px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.servio .group-15 {
+  height: 18px;
+  left: 363px;
+  position: absolute;
+  top: 85px;
+  width: 116px;
+}
+
+.servio .group-16 {
+  height: 78px;
+  left: 513px;
+  position: absolute;
+  top: 37px;
+  width: 433px;
+}
+
+.servio .overlap-7 {
+  height: 78px;
+  position: relative;
+}
+
+.servio .group-17 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 433px;
+}
+
+.servio .overlap-group-3 {
+  height: 74px;
+  position: relative;
+  width: 431px;
+}
+
+.servio .rectangle-5 {
+  background-color: #f6f6f6;
+  border-radius: 40px 43.5px 43.5px 0px;
+  height: 74px;
+  left: 54px;
+  position: absolute;
+  top: 0;
+  width: 377px;
+}
+
+.servio .mask-group-4 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 431px;
+}
+
+.servio .text-wrapper-19 {
+  color: #848484;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 97px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.servio .text-wrapper-20 {
+  color: #ffffff;
+  font-family: "Larsseit-Thin", Helvetica;
+  font-size: 46.2px;
+  font-weight: 100;
+  left: 378px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+  width: 23px;
+}
+
+.servio .group-18 {
+  height: 19px;
+  left: 1018px;
+  position: absolute;
+  top: 82px;
+  width: 110px;
+}
+
+.servio .arrow-right-2 {
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.servio .text-wrapper-21 {
+  color: #333333;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.servio .group-19 {
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 232px;
+}
+
+.servio .text-wrapper-22 {
+  color: #414547;
+  font-family: "Roboto", Helvetica;
+  font-size: 30.8px;
+  font-weight: 400;
+  left: 82px;
+  letter-spacing: 1.44px;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 148px;
+}
+
+.servio .overlap-8 {
+  height: 52px;
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: 52px;
+}
+
+.servio .combined-shape-path {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 11px;
+}
+
+.servio .combined-shape-path-2 {
+  height: 11px;
+  left: 9px;
+  position: absolute;
+  top: 41px;
+  width: 35px;
+}
+
+.servio .combined-shape-path-3 {
+  height: 34px;
+  left: 41px;
+  position: absolute;
+  top: 9px;
+  width: 11px;
+}
+
+.servio .combined-shape-path-4 {
+  height: 11px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.servio .oval {
+  background-color: #1894e1;
+  border-radius: 3.45px;
+  height: 7px;
+  left: 22px;
+  position: absolute;
+  top: 10px;
+  width: 7px;
+}
+
+.servio .oval-2 {
+  background-color: #84dfd8;
+  border-radius: 3.45px;
+  height: 7px;
+  left: 10px;
+  position: absolute;
+  top: 22px;
+  width: 7px;
+}
+
+.servio .oval-3 {
+  background-color: #00a5a5;
+  border-radius: 3.45px;
+  height: 7px;
+  left: 35px;
+  position: absolute;
+  top: 22px;
+  width: 7px;
+}
+
+.servio .oval-4 {
+  background-color: #0b53c1;
+  border-radius: 3.45px;
+  height: 7px;
+  left: 22px;
+  position: absolute;
+  top: 35px;
+  width: 7px;
+}
+
+.servio .text-wrapper-23 {
+  color: #303030;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  top: 760px;
+  width: 367px;
+}
+
+.servio .group-20 {
+  height: 114px;
+  left: 155px;
+  position: absolute;
+  top: 895px;
+  width: 1114px;
+}
+
+.servio .group-21 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 330px;
+}
+
+.servio .overlap-group-4 {
+  height: 78px;
+  left: 95px;
+  position: absolute;
+  top: 9px;
+  width: 231px;
+}
+
+.servio .text-wrapper-24 {
+  color: #888888;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 34px;
+  width: 213px;
+}
+
+.servio .text-wrapper-25 {
+  color: #464646;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 231px;
+}
+
+.servio .vector-wrapper {
+  background-color: #a4f9f226;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.servio .vector-2 {
+  height: 28px;
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: 28px;
+}
+
+.servio .overlap-9 {
+  height: 78px;
+  left: 482px;
+  position: absolute;
+  top: 9px;
+  width: 231px;
+}
+
+.servio .overlap-10 {
+  height: 78px;
+  left: 869px;
+  position: absolute;
+  top: 9px;
+  width: 231px;
+}
+
+.servio .overlap-11 {
+  border-radius: 34.83px 34.83px 34.83px 34.83px;
+  height: 70px;
+  left: 387px;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.servio .rectangle-6 {
+  background-color: #1894e1;
+  border-radius: 34.83px 34.83px 34.83px 34.83px;
+  height: 70px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.servio .coffee {
+  height: 24px;
+  left: 20px;
+  position: absolute;
+  top: 23px;
+  width: 30px;
+}
+
+.servio .overlap-12 {
+  border-radius: 34.83px 34.83px 34.83px 34.83px;
+  height: 70px;
+  left: 774px;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.servio .rectangle-7 {
+  background-color: #12bfbf;
+  border-radius: 34.83px 34.83px 34.83px 34.83px;
+  height: 70px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.servio .comment-dots {
+  height: 27px;
+  left: 23px;
+  position: absolute;
+  top: 21px;
+  width: 27px;
+}
+
+.servio .text-wrapper-26 {
+  color: #85dfd8;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 97px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: underline;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.servio .text-wrapper-27 {
+  color: #1894e1;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 484px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: underline;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.servio .text-wrapper-28 {
+  color: #12bfbf;
+  font-family: "Larsseit-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 871px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: underline;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.servio .text-wrapper-29 {
+  color: #292929;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 790px;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  position: absolute;
+  top: 1175px;
+  width: 550px;
+}
+
+.servio .text-wrapper-30 {
+  color: #888888;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 793px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 1359px;
+  width: 532px;
 }
