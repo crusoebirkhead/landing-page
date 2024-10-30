@@ -12,6 +12,7 @@
   overflow: hidden;
   position: relative;
   width: 1440px;
+  min-height: 3300px;
 }
 
 .servio .overlap {
@@ -1070,7 +1071,18 @@
   width: 532px;
 }
 
+.text-wrapper-31 {
+  color: #292929;
+  font-family: "Larsseit-Regular", Helvetica;
+  font-size: 54px;
+  font-weight: 400;
+  left: 390px;
+  letter-spacing: 0;
+  line-height: 64.8px;
+  width: 612px;
+  position: relative;
+}
 .job-board {
   position: relative;
-  top: 2400px;
+  top: 2500px;
 }

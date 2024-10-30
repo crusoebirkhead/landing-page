@@ -297,6 +297,9 @@ export const App = () => {
           sollicitudin augue. In tincidunt sapien at posuere auctor.
         </p>
         <div className="job-board">
+        <p className="text-wrapper-31">
+              Current Job Openings
+            </p>
         <JobBoard />
         </div>
       </div>

@@ -26,7 +26,7 @@ const JobBoard = () => {
   return (
     <div style={{ padding: '20px', maxWidth: '900px', margin: 'auto'  }}>
       {/* Search and Filter Controls */}
-      <Grid2 container spacing={2} alignItems="center" justifyContent="space-between" style={{ marginBottom: '20px', paddingRight: '40px' }}>
+      <Grid2 container spacing={2} alignItems="center" justifyContent="space-between" style={{ marginBottom: '40px', paddingRight: '40px' }}>
         <Grid2 item xs={12} md={6}>
           <TextField
             label="Search Titles"
@@ -65,7 +65,7 @@ const JobBoard = () => {
       </Grid2>
 
       {/* Job Cards Grid */}
-      <Grid2 container spacing={4} justifyContent="flex-start">
+      <Grid2 container spacing={4} justifyContent="flex-start" style={{ marginBottom: '40px'}}>
         {jobs.map((job) => (
           <Grid2 item xs={12} sm={6} md={4} key={job.id}>
             <Card>
